@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title> Contato </title>
+		<meta charset="UTF-8">
+		<script language="javascript" type="text/javascript">
+	   
+	        function validar() {
+			
+			   var email=form1.email.value;
+			   var nome=form1.nome.value;
+
+			  
+			   
+			   if(email == "" ) {
+			   alert('Por favor, preencha o campo e-mail')
+			   form1.email.focus();
+			   return false;
+			   }
+			   if(nome == "") {
+			   alert('Por favor, preencha o campo nome!!')
+			   form1.nome.focus();
+			   return false;
+			   }
+			  	return true;		 
+			} 
+	   
+	  </script> 
+		<link rel="icon" type="image/png" href="add.png">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="jquery.exzoom.css" rel="stylesheet" type="text/css">
+		</head>
+<body background="teste.png">
+ <nav class="menu">
+	<ul>
+	<li> Modelos 
+			<ul>
+			   <li> <a href="../350/350.html"> 350 </a> </li>
+			   <li> <a href="../V2/V2.html"> 350 V2 </a> </li>
+			   <li> <a href="../750/750.html"> 750 </a> </li>
+			 </ul> </li>
+		<li> <a href="../TL/tml.html"> Time Line</a> </li>
+		<li> <a href="../index.html"> Home </a> </li>
+		<li> <a href="cont.html"> Contate-nos </a> </li>
+		<li> <a href="https://www.adidas.com.br/homem-calcados-tenis"> Site Oficial </a> </li>
+
+	</nav>
+	
+	<br><br><br><br><br><br><br><br>
+	
+	
+	<div class="form">
+	<form name="form1" action="aviso.html" method="post">
+		<input type="text" name="nome" placeholder="Nome"/><br>
+		 <input type="text" name="email" placeholder="E-mail"/><br>
+		   <textarea type="text" name="msg">Deixe sua mensagem aqui. </textarea><br>
+		 <button type="submit" onclick="return validar()"> <font color="#fff"> Enviar </button>
+		  <button type="reset" value="Limpar"> Limpar </font> </button>
+	</form>
+	</div>
+	
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		
+		<center> <h3> <font color="#fff"> Adriano Carvalho - Todos direitos reservados</font> </h3> <br> </center>
+	
+</body>
+</html>

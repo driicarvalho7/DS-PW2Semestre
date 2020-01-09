@@ -1,0 +1,61 @@
+*{
+     margin:0 px;
+     padding:0 px;
+
+}
+body{
+     margin:0 px;
+     padding:0 px;
+          }
+		  
+    .menu ul li{
+	  border: 0px;
+	  background-color:black;
+	  color: white;
+	  float: left;
+	  width: 313px; 
+	  height: 40px; 
+	  display: inline-block; 
+	  text-align:center;
+	  line-height: 40px;
+	  font-size: 25px;
+	  position: relative;
+	  }
+	  .menu ul li:hover{
+	      background-color:#363636;
+	   }
+	   .menu ul{
+	    padding:0px;
+		}
+		.menu ul ul{
+		display: none;
+		}
+		.menu ul li:hover  > ul 
+		{
+		display: block;
+		}
+		.menu ul ul ul{
+		  margin-left: 201px;
+		  top: 0px;
+		  position: absolute;
+		 }
+		 .menu ul ul li:hover{
+		 background-color:#363636;
+		 }
+		 .menu ul ul ul li: hover{
+		 background-color:red;
+		 
+		 }
+		 .menu a{
+		 color:white;
+		 text-decoration: none; 
+		 }		 
+
+#exzoom{
+	position: absolute;
+	top: 50%;
+	left: 48%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	height: 350px;
+}
