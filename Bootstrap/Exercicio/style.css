@@ -1,0 +1,28 @@
+.container {
+	background: #ff0;
+	border: 1px solid #f00;
+}
+
+.col-md-12{
+	border: 1px solid;
+}
+
+.col-md-4{
+	border: 1px solid;
+}
+
+.col-md-6{
+	border: 1px solid;
+}
+
+.col-xs-18{
+	border: 1px solid;
+}
+
+.col-xs-9{
+	border: 1px solid;
+}
+
+.col-xs-6{
+	border: 1px solid;
+}
